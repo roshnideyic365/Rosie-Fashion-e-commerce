@@ -1,0 +1,430 @@
+/*------------------------------------------------NAVBAR----------------------------------------*/
+.nav
+{
+    background-color: white;
+    z-index: 9;
+    padding-left: 50px;
+    padding-right: 50px;
+    display:flex;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+}
+.nav_top
+{
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+}
+.logo
+{
+    float:left;
+    width: 50%;
+}
+.logo img
+{
+    padding: 10px;
+}
+.nav_side
+{
+    float:right;
+    width:55%;
+    margin-top: 43px;
+}
+.nav_side a
+{
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: rgb(37, 0, 19);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    
+}
+.nav_side a:hover
+{
+    color: rgb(253, 0, 84);
+    transition: all 1s ease;
+}
+
+/*------------------------------------------------MAIN----------------------------------------*/
+.main
+{
+    background-image: url("images/back.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 90vh;
+}
+.main .main_content
+{
+    padding-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.main .main_content h2
+{
+    color: white;
+    font-size: 430%;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 35px;
+}
+.main .main_content h2 span
+{
+    font-size:30%;
+    opacity: 0.9;
+    font-weight: 400;
+    line-height: 20px;
+}
+.main .main_content .btn
+{
+    margin-top:10%;
+    text-align: center;
+    width:100%;
+}
+.main .main_content .btn a
+{
+    text-decoration: none;
+    font-size: large;
+    margin:44%;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: rgb(37, 0, 19);
+    font-family: 'Trebuchet MS', sans-serif; 
+    text-align: center;
+    border: 2px solid rgb(37, 0, 19);;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.main .main_content .btn a:hover
+{
+    background-color: white;
+    color: rgb(37, 0, 19);
+    border: none;
+    border-bottom: 4px solid rgb(37, 0, 19);
+    transition:0.5s;
+}
+/*--------------------------------------------PRODUCTS----------------------------------------*/
+.product
+{
+    padding-bottom: 50px;
+}
+.product h2
+{
+    font-family: 'Trebuchet MS', sans-serif; 
+    color: rgb(92, 0, 47);
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+}
+.product .product_container
+{
+    display:flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.product .product_container .item
+{
+    width:33.33%;
+    margin: 10px;
+    height: auto;
+}
+.product .product_container .item:hover
+{
+    box-shadow:0px 3px 65px 0px rgba(161, 127, 127, 0.5);
+}
+.product .product_container .item .item_img
+{
+    width:100%;
+    height: 460px;
+    overflow:hidden;
+}
+.product .product_container .item .item_img img
+{
+    width:100%;
+    height: 460px;
+}
+.product .product_container .item .item_content
+{
+    text-align: center;
+}
+.product .product_container .item .item_content h3
+{
+    font-size: 15px;
+    font-family:'Trebuchet MS', sans-serif;
+    line-height: 2px;
+}
+.product .product_container .item .item_content p
+{
+    font-size: 15px;
+    line-height: 15px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.product .product_container .item .item_content a
+{
+    text-decoration: none;
+    padding: 5px 10px;
+    font-weight: bold;
+    color:rgb(92, 0, 47);
+    font-family: 'Trebuchet MS', sans-serif; 
+    text-align: center;
+    border: 2px solid rgb(92, 0, 47);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.product .product_container .item .item_content a:hover
+{
+    background-color: rgb(92, 0, 47);
+    color: white;
+    border: none;
+    border-bottom: 4px solid rgb(37, 0, 19);
+    transition:0.5s;
+}
+.product .product_btn
+{
+    text-align: center;
+    margin-top: 50px;
+}
+.product .product_btn a
+{
+    text-decoration: none;
+    font-size: larger;
+    padding: 10px 20px;
+    font-weight: bolder;
+    color:white;
+    background-color: rgb(92, 0, 47);
+    font-family: 'Trebuchet MS', sans-serif; 
+    text-align: center;
+    border: 3px double rgb(158, 129, 145);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.product .product_btn a:hover
+{
+    background-color: white;
+    color: rgb(37, 0, 19);
+    border: none;
+    border: 4px solid rgb(37, 0, 19);
+    transition:0.5s;
+}
+/*--------------------------------------------KEY HIGHLIGHTS----------------------------------------*/
+.keypoint
+{
+    padding:20px;
+}
+.keypoint h2
+{
+    font-family: 'Trebuchet MS', sans-serif; 
+    color: rgb(92, 0, 47);
+    font-size: 35px;
+    text-align: center;
+}
+.keypoint .key_container
+{
+    display: flex;
+}
+.keypoint .key_container .key_content
+{
+    width:40%;
+    padding:20px;
+    float:left;
+}
+.keypoint .key_container .key_content li
+{
+    list-style: none;
+    margin:15px;
+    padding:20px;
+    border-left:2px solid rgb(161, 0, 83);
+    color: rgb(37, 0, 19);
+    font-size:17px;
+    text-align: left;
+    font-family: 'Trebuchet MS', sans-serif;
+    box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.2);
+}
+.keypoint .key_container .key_img
+{
+    width:40%;
+    float:right;
+    margin-left:100px;
+}
+.keypoint .key_container .key_img img
+{
+    width:100%;
+
+}
+/*--------------------------------------------WHAT'S NEW----------------------------------------*/
+.testi
+{
+    padding:50px;
+}
+.testi h2
+{
+    font-family: 'Trebuchet MS', sans-serif; 
+    color: rgb(92, 0, 47);
+    font-size: 35px;
+    text-align: center;
+}
+.testi .testi_container
+{
+    margin-right:10%;
+    margin-left:10%;
+    text-align:center;
+}
+.testi .testi_container .carousel-inner
+{
+    background-color: white;
+    box-shadow: none;
+}
+.testi .testi_container .item
+{
+    width:100%;
+    padding:20px;
+    background-color:white;
+    box-shadow: none;
+}
+.testi .testi_container .item .item_img
+{
+    width:100%;
+    height: 300px;
+    overflow:hidden;
+    text-align:center;
+}
+.testi .testi_container .item .item_img img
+{
+    width:300px;
+    height: 300x;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.testi .testi_container .item .item_content
+{
+    text-align: center;
+}
+.testi .testi_container .item .item_content h3
+{
+    font-size: 15px;
+    font-family:'Trebuchet MS', sans-serif;
+    line-height: 2px;
+    color: rgb(92, 0, 47) ;
+}
+.testi .testi_container .item .item_content p
+{
+    font-size: 15px;
+    line-height: 15px;
+    font-family: 'Trebuchet MS', sans-serif;
+    width:80%;
+    margin-left:10%;
+}
+/*--------------------------------------------FOOTER----------------------------------------*/
+footer
+{
+    background-color: black;
+    padding:50px;
+}
+footer .pages
+{
+    text-align: center;
+}
+footer .pages h3
+{
+    color: rgb(255, 226, 243);
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif; 
+    padding: 5px;
+    font-weight: bold;
+}
+footer .pages a
+{
+    text-decoration: none;
+    margin:10px;
+    color: rgba(255, 226, 243, 0.808);
+    font-size: 15px;
+    font-family: 'Trebuchet MS', sans-serif; 
+}
+footer .pages a:hover
+{
+    color:white;
+}
+footer .doc
+{
+    text-align: center;
+}
+footer .doc h3
+{
+    color: rgb(255, 226, 243);
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif; 
+    padding: 5px;
+    font-weight: bold;
+}
+footer .doc a
+{
+    text-decoration: none;
+    margin:10px;
+    color: rgba(255, 226, 243, 0.808);
+    font-size: 15px;
+    font-family: 'Trebuchet MS', sans-serif; 
+}
+footer .doc a:hover
+{
+    color:white;
+}
+footer .social
+{
+    text-align: center;
+}
+footer .social h3
+{
+    color: rgb(255, 226, 243);
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif; 
+    padding: 5px;
+    font-weight: bold;
+}
+footer .contact
+{
+    text-align: center;
+}
+footer .contact h3
+{
+    color: rgb(255, 226, 243);
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif; 
+    padding: 5px;
+    font-weight: bold;
+}
+footer .social a
+{
+    font-size: 30px;
+    text-decoration: none;;
+    color:rgba(247, 193, 224, 0.904);
+    margin:10px;
+}
+footer .social a:hover
+{
+    color:white;
+}
+footer .contact a
+{
+    font-size: 30px;
+    text-decoration: none;;
+    color:rgba(247, 193, 224, 0.904);
+    margin:10px;
+}
+footer .contact a:hover
+{
+    color:white;
+}
+footer p
+{
+    color:rgba(247, 178, 217, 0.726);
+}
